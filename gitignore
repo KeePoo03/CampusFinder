@@ -1,0 +1,23 @@
+# Secrets: never put Telegram or GitHub tokens on GitHub
+config.py
+.env
+*.pem
+
+# Local user content and logs
+data/
+files/
+*.log
+
+# Python caches, tests, virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# System and editors
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
